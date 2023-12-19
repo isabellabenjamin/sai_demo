@@ -1,0 +1,20 @@
+sudo wget -O /etc/yum.repos.d/jenkins.repo \https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
+sudo dnf upgrade
+sudo yum install java-17-amazon-corretto-devel
+sudo dnf install jenkins
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+
+go to opt which is out of home 
+
+wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+
+tar -xzvf apache-maven-3.9.6-bin.tar.gz
+
+mv apache-maven-3.9.6 maven
+
+cd maven/bin and type ./mvn -v
+
+after go to cd ~ location and type ll ~a
+

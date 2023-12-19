@@ -1,0 +1,44 @@
+git init
+
+git --version
+
+git status
+
+git init -b main 
+
+to change all ready created branch --> git branch -M main
+
+git add File.txt
+
+git commit filename -m "firstcommit"
+
+git commit -m "MyfirstCommit"
+
+git config --global user.name "userid"
+
+git config --global user.email "email"
+
+git diff
+
+git diff --staged {when the file is stagged}
+
+git rm --cached filename
+
+git remote add origin httpslink
+
+git push -u origin main
+
+git clone httpslink
+
+git checkout -b feature1 {create a new branch}
+
+git branch -all {shows all branches}
+
+git switch -
+
+git branch -d feature1 {to delete a branch}
+
+git merge branchname
+
+git rebase feature3
+
